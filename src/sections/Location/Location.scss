@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+  margin: auto;
+  h3 {
+    margin-top: $med;
+    margin-bottom: $med;
+  }
+  @media screen and (min-device-width: 800px) {
+    .row {
+      display: flex;
+      justify-content: space-between;
+   
+    }
+  }
+}

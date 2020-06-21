@@ -1,0 +1,44 @@
+.banner {
+  background-image: url("../../assets/img/t-smash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  height: 600px;
+  width: 100%;
+  .blur {
+    color: $ligthest;
+
+    height: 600px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p:first-child {
+      margin: 0;
+      margin-top: $big;
+      height: 48px;
+      width: auto;
+      background: $accent;
+      padding-left: $big;
+      padding-right: $big;
+      padding-top: $min;
+      padding-bottom: $min;
+    }
+    p.desc{
+        margin-top: $big;
+        font-weight: 'bold';
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 50px;
+    }
+  }
+}
+@media screen and (min-device-width: 800px) {
+  .banner{
+    background-image: url("../../assets/img/dois.jpg");
+  }
+  .h3.desc{
+    width: 500px;
+  }
+}

@@ -1,0 +1,43 @@
+nav {
+  color: $ligthest;
+  display: flex;
+  height: $huge;
+  background: $dark;
+  align-items: center;
+  padding-left: $huge;
+  h3 {
+    color: $ligthest;
+    margin: 0;
+  }
+  img {
+    width: 48px;
+    height: 48px;
+    margin-right: $min;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  ul {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 800px) {
+  nav {
+    justify-content: space-between;
+    ul {
+      color: white;
+      display: flex;
+      margin-right: $huge;
+      li {
+        list-style: none;
+        margin-right: $med;
+        a{
+          text-decoration: none;
+          color: $ligthest;
+        }
+      }
+    }
+
+  }
+}

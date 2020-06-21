@@ -1,0 +1,56 @@
+.location-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(#000, 0.2);
+  border-radius: 15px;
+  margin-bottom: $med;
+  
+  .top {
+    color: $ligthest;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $accent;
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    padding-top: $med;
+    padding-bottom: $med;
+    h4 {
+      padding-bottom: $min;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .bottom {
+    color: $ligthest;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $accent;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    padding-top: $med;
+    padding-bottom: $med;
+    p {
+      padding-bottom: $min;
+    }
+    button {
+      font-weight: 700;
+      padding: $min $med $min $med;
+      background: $semitone;
+      box-shadow: 1px 1px 1px 1px  #555;
+      border: 0;
+      a{
+          text-decoration: none;
+          color: $dark;  
+        }
+    }
+  }
+  @media screen and (min-device-width: 800px) {
+    width: 30%;
+    border:0;
+  }
+}

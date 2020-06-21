@@ -1,0 +1,33 @@
+.combos-container{
+    h3{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desktop{
+        display: none;
+    }
+    @media screen and (min-device-width: 800px) {
+      margin:auto;
+        .mobile{
+            display: none;
+        }
+        .desktop{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            .combo-card-container{
+             display: flex;
+             flex-direction: row;   
+             align-items: center;
+             justify-content: space-between;
+             width: 100%;
+            }
+        }
+    }
+}

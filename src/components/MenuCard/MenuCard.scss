@@ -1,0 +1,45 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  background: $ligth;
+  padding-left: $min;
+  padding-right: $min;
+  padding-top: $min;
+  padding-bottom: $min;
+  height: 160px;
+  border-radius: 12px;
+  margin-bottom: $min;
+  h5 {
+    color: $accent;
+  }
+  .item-info {
+    h5 {
+      margin-bottom: $min;
+     
+    }
+    display: flex;
+    align-items: center;
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      margin-right: $min;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin-bottom: $min;
+    }
+    }
+  }
+  h5:last-child {
+    align-self: flex-end;
+  }
+  @media screen and (min-device-width: 800px) {
+    max-width: 49.5%; //It s odd to ley the value with decimal but i need to be sure that 2 elements sumed is equal 99%
+    .item-info{
+      line-height: 23px;;
+    }
+  }
+}

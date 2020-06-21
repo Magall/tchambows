@@ -1,0 +1,68 @@
+/* IMPLEMENTATION OF THE STYLE GUIDE */
+
+*{box-sizing: border-box;}
+// HEADINGS AND PARAGRAPH
+h1{
+    font-size: 58px;
+}
+h2 {
+    font-size:44px;
+}
+h3{
+    font-size: 33px;
+}   
+h4{
+    font-size: 25px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+}
+
+.h1{
+    font-size: 58px;
+}
+.h2 {
+    font-size:44px;
+}
+.h3{
+    font-size: 33px;
+}   
+.h4{
+    font-size: 25px;
+}
+.h5{
+    font-size: 18px;
+}
+.p{
+    font-size: 14px;
+}
+
+//SPACING
+$min:8px;
+$med:16px;
+$big:32px;
+$huge:64px;
+.container{
+    width: 95%;
+    @media screen and (min-device-width: 800px) {
+        width:84%
+    }
+}
+
+//COLORS
+$semitone:#E8A621;
+$dark:#100805;
+$accent:#EA2632;
+$ligthest:#FFFFF7;
+$ligth:#E5E5DF; 
+
+
+h1,h2,h3,h4,h5,p,span{
+    font-family: 'Roboto';
+    margin:0;
+}
+
+
