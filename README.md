@@ -1,5 +1,5 @@
 # tchambows
-This is an landing page built in Vue.js. It simulates a snack bar whom sells burgers. It has performances optimizations, ARIA acessabilty and good SEO.
+This is a responsive landing page built in Vue.js. It simulates a snack bar whom sells burgers. It has performances optimizations, ARIA acessabilty and good SEO.
 
 Published at https://magall.github.io/tchambows/
 ## Project setup
