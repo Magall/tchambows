@@ -9,7 +9,10 @@
         flex-direction: column;
         align-items: center;
         list-style: none;
+        margin-bottom: 0;
+       
         li{
+           
             width: 80%;
             margin-left: auto;
             margin: 0;
@@ -34,7 +37,7 @@
             }
         }
     }
-    @media screen and (min-device-width: 800px) {
+    @media screen and (min-device-width: 1200px) {
         margin-top: 42px;
         display: flex;
 
@@ -43,12 +46,21 @@
             flex-direction: row;
             justify-content: center;
             margin: 0;
-           
+            li:hover{
+                transform: scale(1.03); 
+            }
             li{
+                transition: all .2s ease-in-out;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                
+            }
+            li:last-child{
+                img{
+                    width: 40px;
+                    height:40px;
+                }
             }
             .cta{
                 border:0;

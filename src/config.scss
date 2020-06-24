@@ -47,7 +47,7 @@ $big:32px;
 $huge:64px;
 .container{
     width: 95%;
-    @media screen and (min-device-width: 800px) {
+    @media screen and (min-device-width: 1200px) {
         width:84%
     }
 }

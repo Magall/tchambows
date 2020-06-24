@@ -1,4 +1,8 @@
+.menu-container:hover{
+  transform: scale(1.03); 
+}
 .menu-container {
+  transition: all .2s ease-in-out;
   display: flex;
   justify-content: space-between;
   background: $ligth;
@@ -36,7 +40,7 @@
   h5:last-child {
     align-self: flex-end;
   }
-  @media screen and (min-device-width: 800px) {
+  @media screen and (min-device-width: 1200px) {
     max-width: 49.5%; //It s odd to ley the value with decimal but i need to be sure that 2 elements sumed is equal 99%
     .item-info{
       line-height: 23px;;
